@@ -1,0 +1,23 @@
+Prompt I use:
+
+	Subject: {['task']}
+Please answer the following multiple-choice question. Please answer directly with only the letter (A, B, C, or D) without explanation.
+
+Here are a few examples:
+
+{few_shot_examples}
+
+Now answer this question:
+Question: {['input']}
+A: {['A']}
+B: {['B']}
+C: {['C']}
+D: {['D']}
+
+Think step-by-step, analyze each option carefully, and then provide only the letter (A, B, C, or D) without explanation.
+
+API I use:
+	deepseek-r1-distill-llama-70b
+
+My prompt strategy:
+	我使用 Few-Shot + Chain of Thought 當作我的 prompt strategy。我從mmlu_sample.csv中隨機抽取五題當作 few-shot 的範例，並且告訴模型這一題的學科分類為何，最後請模型做 chain of thought，要求它think step by step。其中 prompt 全部都使用英文，用以提高準確率。

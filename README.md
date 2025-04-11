@@ -8,5 +8,3 @@
 3. Thematic Multiple-Choice Question Generation  
 根據特定主題，在本地端運行大型語言模型，生成 100 題選擇題的題目與答案，並生成推理過程。
 ---
-4. Conversational ChatBot  
-設定模型的人設，讓模型依照人設回應使用者訊息。

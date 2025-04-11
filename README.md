@@ -1,6 +1,6 @@
 # AI_portfolio
---- 
-## 1. Prompt Enginerring
+# 1. Prompt Enginerring
+
 運行大型語言模型，使用不同的 prompt strategy 設計prompt，並回答 MMLU 資料集。
 ---
 ## 2. Paper Abstract Generation

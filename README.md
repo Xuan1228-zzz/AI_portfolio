@@ -8,3 +8,6 @@
 3. Thematic Multiple-Choice Question Generation  
 根據特定主題，在本地端運行大型語言模型，生成 100 題選擇題的題目與答案，並生成推理過程。
 ---
+4. HR candidate data searching system
+code(需在colab 的 Secret 更新 groq api key 即可直接執行):
+https://colab.research.google.com/drive/14aVjppbwOtRjIaX1iOCxRK3UJqwUjFcC?usp=sharing
